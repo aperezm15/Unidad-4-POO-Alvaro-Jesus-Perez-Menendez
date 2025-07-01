@@ -18,7 +18,9 @@ public class TestTaller5Ejercicio2 {
      */
     public static void main(String[] args) {
        Moto moto1 = new Moto("Suzuki gixxer 150", 137);
-       moto1.mostrarInfo();
+//        System.out.println(moto1.tipo);
+//        System.out.println(moto1.velocidad);
+        moto1.mostrarInfo();
     }
     
 }
