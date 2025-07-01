@@ -13,6 +13,32 @@ public class CuentaBancaria {
     double saldo;
     String tipoCuenta;
 
+    public int getNumeroCuenta() {
+        return numeroCuenta;
+    }
+
+    public void setNumeroCuenta(int numeroCuenta) {
+        this.numeroCuenta = numeroCuenta;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    public String getTipoCuenta() {
+        return tipoCuenta;
+    }
+
+    public void setTipoCuenta(String tipoCuenta) {
+        this.tipoCuenta = tipoCuenta;
+    }
+    
+    
+
     public CuentaBancaria() {
         numeroCuenta = 0;
         saldo = 0.0;
@@ -28,6 +54,11 @@ public class CuentaBancaria {
         this.numeroCuenta = numeroCuenta;
         this.saldo = saldo;
         this.tipoCuenta = tipoCuenta;
+    }
+
+    @Override
+    public String toString() {
+        return "CuentaBancaria{" + "numeroCuenta=" + numeroCuenta + ", saldo=" + saldo + ", tipoCuenta=" + tipoCuenta + '}';
     }
     
     

@@ -6,6 +6,32 @@ public class Libro {
     String autor;
     int numeroPaginas;
 
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public int getNumeroPaginas() {
+        return numeroPaginas;
+    }
+
+    public void setNumeroPaginas(int numeroPaginas) {
+        this.numeroPaginas = numeroPaginas;
+    }
+    
+    
+
     public Libro() {
         titulo = "Desconodico";
         autor = "Desconocido";
@@ -24,5 +50,11 @@ public class Libro {
         System.out.println("Titulo: "+ titulo + ", Autor: " + autor + ", Numero de Paginas: " + numeroPaginas + ".");
         
     }
+
+    @Override
+    public String toString() {
+        return "Libro{" + "titulo=" + titulo + ", autor=" + autor + ", numeroPaginas=" + numeroPaginas + '}';
+    }
+    
     
 }
