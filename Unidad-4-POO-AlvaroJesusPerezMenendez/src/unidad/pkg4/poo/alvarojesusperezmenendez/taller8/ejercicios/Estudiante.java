@@ -19,7 +19,7 @@ public class Estudiante extends Persona {
     @Override
     public void mostrarDetalle (){
         super.mostrarDetalle();
-        System.out.println("Matricula: "+matricula);
+        System.out.println(", Matricula: "+matricula);
         
         
     }

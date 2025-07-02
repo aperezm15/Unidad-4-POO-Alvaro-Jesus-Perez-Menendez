@@ -18,7 +18,7 @@ public class Persona {
     }
     
     public void mostrarDetalle () {
-        System.out.println("Nombre: "+nombre+", Edad : "+edad);
+        System.out.print("Nombre: "+nombre+", Edad : "+edad);
         
     }
     
